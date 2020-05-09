@@ -1,0 +1,16 @@
+.container {
+  height: 100%;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.big-text {
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-text>.secondary {
+  color: #698BF5;
+}
