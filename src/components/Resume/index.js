@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 
-import LeftSection from './LeftSection';
-import RightSection from './RightSection';
+import LeftColumn from './LeftColumn';
+import RightColumn from './RightColumn';
 import './style.css';
 
 const calc = (x, y) => [
@@ -27,8 +27,8 @@ const Resume = () => {
         style={{ transform: props.xys.interpolate(trans) }}
       > */}
       <div className="resume">
-        <LeftSection />
-        <RightSection />
+        <LeftColumn />
+        <RightColumn />
       </div>
       {/* </animated.div> */}
     </div>
