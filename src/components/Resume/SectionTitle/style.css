@@ -1,7 +1,13 @@
 .section-title {
   display: flex;
   align-items: center;
-  color: #f8f8ff;
+  color: var(--light);
+}
+
+.section-title-dark {
+  display: flex;
+  align-items: center;
+  color: var(--dark);
 }
 
 .section-title-logo {

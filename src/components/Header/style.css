@@ -16,14 +16,14 @@
 
 .title {
   font-size: 24px;
-  color: #F8F8FF;
+  color: var(--light);
   text-decoration: none;
 }
 
 .link {
   font-size: 18px;
   height: 100%;
-  color: #F8F8FF;
+  color: var(--light);
   text-decoration: none;
 }
 

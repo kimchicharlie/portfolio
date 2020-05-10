@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap');
 
+:root {
+  --dark: #1C1D26;
+  --light: #F8F8FF;
+  --primary: #698BF5;
+}
+
 html,
 body,
 #___gatsby,
@@ -9,8 +15,8 @@ body,
 
 html {
   font-family: sans-serif;
-  background: #1c1d26;
-  color: #F8F8FF;
+  background: var(--dark);
+  color: var(--light);
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -253,7 +259,7 @@ html {
 }
 
 body {
-  color: #F8F8FF;
+  color: var(--light);
   font-family: Oxygen, serif;
   font-weight: normal;
   word-wrap: break-word;

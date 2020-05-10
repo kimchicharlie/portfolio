@@ -1,8 +1,8 @@
 .left-column {
   height: 100%;
   width: 24%;
-  background: #698bf5;
-  color: #f8f8ff;
+  background: var(--dark);
+  color: var(--light);
 }
 
 .picture-section {
@@ -12,11 +12,10 @@
 
 .picture {
   margin: 0 auto;
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  width: 80%;
+  border-radius: 300px;
   overflow: hidden;
-  background-color: #f8f8ff;
+  background-color: var(--light);
 }
 
 .about-section {

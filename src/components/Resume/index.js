@@ -20,17 +20,15 @@ const Resume = () => {
   }));
   return (
     <div className="resume-container">
-      {/* <animated.div
+      <animated.div
         className="resume"
         onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
         onMouseLeave={() => set({ xys: [0, 0, 1] })}
         style={{ transform: props.xys.interpolate(trans) }}
-      > */}
-      <div className="resume">
+      >
         <LeftColumn />
         <RightColumn />
-      </div>
-      {/* </animated.div> */}
+      </animated.div>
     </div>
   );
 };

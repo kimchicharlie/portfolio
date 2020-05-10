@@ -18,6 +18,8 @@ import RacketSVG from '@icons/racket.svg';
 import HikingSVG from '@icons/hiking.svg';
 import GuitarSVG from '@icons/guitar.svg';
 import EarthSVG from '@icons/earth.svg';
+import CodeSVG from '@icons/code.svg';
+import VideogameSVG from '@icons/videogame.svg';
 
 import './style.css';
 
@@ -108,6 +110,13 @@ const LeftColumn = () => {
               iconSize="big"
               className="hobbies-section-icon"
             />
+            <TextIcon
+              iconComponent={EarthSVG}
+              text="Travels"
+              vertical
+              iconSize="big"
+              className="hobbies-section-icon"
+            />
           </div>
           <div className="hobbies-section-column">
             <TextIcon
@@ -117,8 +126,15 @@ const LeftColumn = () => {
               iconSize="big"
             />
             <TextIcon
-              iconComponent={EarthSVG}
-              text="Travels"
+              iconComponent={CodeSVG}
+              text="Coding"
+              vertical
+              iconSize="big"
+              className="hobbies-section-icon"
+            />
+            <TextIcon
+              iconComponent={VideogameSVG}
+              text="Video games"
               vertical
               iconSize="big"
               className="hobbies-section-icon"

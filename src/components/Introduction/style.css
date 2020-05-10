@@ -13,5 +13,14 @@
 }
 
 .big-text>.secondary {
-  color: #698BF5;
+  color: var(--primary);
+}
+
+.homepage-link {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.homepage-link:hover {
+  opacity: 0.5;
 }

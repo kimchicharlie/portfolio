@@ -19,7 +19,7 @@
 }
 
 .logo-link {
-  color: #698BF5;
+  color: var(--primary);
 }
 
 .logo-link:hover {
