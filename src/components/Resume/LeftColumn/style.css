@@ -18,6 +18,12 @@
   background-color: var(--light);
 }
 
+.text-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .about-section {
   width: 88%;
   margin: 0 auto;

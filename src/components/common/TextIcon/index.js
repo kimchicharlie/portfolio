@@ -35,7 +35,7 @@ const TextIcon = props => {
 };
 
 TextIcon.propTypes = {
-  iconComponent: PropTypes.node.isRequired,
+  iconComponent: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired,
   href: PropTypes.string,
   vertical: PropTypes.bool,

@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import SectionTitle from '@components/Resume/SectionTitle';
-
-import BriefcaseSVG from '@icons/briefcase.svg';
 import './style.css';
 
 const HistoricalList = props => {
@@ -11,7 +8,10 @@ const HistoricalList = props => {
   return (
     <div className="historical-list">
       {items.map(item => (
-        <div className="historical-list-item">
+        <div
+          key={`${item.primary}-${item.secondary}`}
+          className="historical-list-item"
+        >
           <div className="historical-list-item-info">
             <div>
               <span className="historical-list-item-info-primary">
@@ -31,7 +31,7 @@ const HistoricalList = props => {
           </div>
           <div className="historical-list-item-description">
             {item.description.map(description => (
-              <span>{description}</span>
+              <span key={description}>{description}</span>
             ))}
           </div>
         </div>

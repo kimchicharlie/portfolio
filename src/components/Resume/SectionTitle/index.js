@@ -16,7 +16,7 @@ const SectionTitle = props => {
 };
 
 SectionTitle.propTypes = {
-  iconComponent: PropTypes.node.isRequired,
+  iconComponent: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   dark: PropTypes.bool,
 };

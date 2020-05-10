@@ -1,7 +1,6 @@
 import React from 'react';
 
 import SectionTitle from '@components/Resume/SectionTitle';
-import TextIcons from '@components/common/TextIcons';
 import TextIcon from '@components/common/TextIcon';
 import CharlieImage from '@components/Image/Charlie';
 
@@ -43,33 +42,25 @@ const LeftColumn = () => {
       <div className="social-section">
         <SectionTitle iconComponent={GroupSVG} title="I AM SOCIAL" />
         <div className="social-section-content">
-          <TextIcons
-            items={[
-              {
-                iconComponent: PhoneSVG,
-                text: '+33.629.68.53.34',
-              },
-              {
-                iconComponent: MailSVG,
-                text: 'charlie.henin@gmail.com',
-              },
-              {
-                iconComponent: InternetSVG,
-                text: 'www.charliehenin.com',
-                href: 'http://www.charliehenin.com',
-              },
-              {
-                iconComponent: LinkedinSVG,
-                text: 'charlie-henin',
-                href: 'https://www.linkedin.com/in/charlie-henin/',
-              },
-              {
-                iconComponent: GithubSVG,
-                text: 'kimchicharlie',
-                href: 'https://github.com/kimchicharlie',
-              },
-            ]}
-          />
+          <div className="text-icons">
+            <TextIcon iconComponent={PhoneSVG} text="+33.629.68.53.34" />
+            <TextIcon iconComponent={MailSVG} text="charlie.henin@gmail.com" />
+            <TextIcon
+              iconComponent={InternetSVG}
+              text="www.charliehenin.com"
+              href="http://www.charliehenin.com"
+            />
+            <TextIcon
+              iconComponent={LinkedinSVG}
+              text="charlie-henin"
+              href="https://www.linkedin.com/in/charlie-henin"
+            />
+            <TextIcon
+              iconComponent={GithubSVG}
+              text="kimchicharlie"
+              href="https://github.com/kimchicharlie"
+            />
+          </div>
         </div>
       </div>
       <div className="technologies-section">

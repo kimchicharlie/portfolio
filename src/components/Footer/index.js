@@ -1,11 +1,10 @@
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import LinkedinSVG from '@icons/linkedin.svg';
 import GithubSVG from '@icons/github.svg';
 import './style.css';
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <footer className="footer">
     <div className="content">
       <div>© {new Date().getFullYear()}, Built using Gatsby & ♥️</div>
@@ -31,9 +30,7 @@ const Footer = ({ siteTitle }) => (
   </footer>
 );
 
-Footer.propTypes = {
-  siteTitle: PropTypes.string.isRequired,
-};
+Footer.propTypes = {};
 
 Footer.defaultProps = {};
 
