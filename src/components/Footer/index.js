@@ -7,7 +7,10 @@ import './style.css';
 const Footer = () => (
   <footer className="footer">
     <div className="content">
-      <div>© {new Date().getFullYear()}, Built using Gatsby & ♥️</div>
+      <div>
+        © {new Date().getFullYear()}, Built using Gatsby & ♥️ (Responsive and
+        new features coming soon)
+      </div>
       <div className="logos-container">
         <a
           className="logo-link"
