@@ -1,0 +1,7 @@
+.right-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background: #f8f8ff;
+}

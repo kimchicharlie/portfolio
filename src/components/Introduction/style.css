@@ -6,7 +6,8 @@
 }
 
 .big-text {
-  font-size: 48px;
+  font-size: 56px;
+  line-height: 40px;
   display: flex;
   flex-direction: column;
 }

@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '@components/Layout';
-import Image from '@components/Image';
 import Introduction from '@components/Introduction';
 import SEO from '@components/Seo';
 

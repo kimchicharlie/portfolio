@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Image from '@components/Image';
 import './style.css';
 
 const Introduction = () => {

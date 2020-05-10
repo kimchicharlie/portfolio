@@ -10,7 +10,7 @@ body,
 html {
   font-family: sans-serif;
   background: #1c1d26;
-  color: #F7F8FF;
+  color: #F8F8FF;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -253,7 +253,7 @@ html {
 }
 
 body {
-  color: #F7F8FF;
+  color: #F8F8FF;
   font-family: Oxygen, serif;
   font-weight: normal;
   word-wrap: break-word;

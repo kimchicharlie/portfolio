@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/" className="link hoverable">
           Homepage
         </Link>
-        <Link to="/" className="link hoverable">
+        <Link to="/resume" className="link hoverable">
           Resume
         </Link>
       </div>
