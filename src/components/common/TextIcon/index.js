@@ -21,7 +21,7 @@ const TextIcon = props => {
       {href ? (
         <a
           className="text-icon-link"
-          href="https://www.linkedin.com/in/charlie-henin/"
+          href={href}
           target="_blank"
           rel="noopener noreferrer"
         >
