@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Layout from '@components/Layout';
-import Resume from '@components/Resume';
 import SEO from '@components/Seo';
+import Resume from '@views/Resume';
 
 const ResumePage = () => (
   <Layout>

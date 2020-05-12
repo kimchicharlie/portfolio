@@ -6,27 +6,24 @@ import './style.css';
 
 const Footer = () => (
   <footer className="footer">
-    <div className="content">
-      <div>
-        © {new Date().getFullYear()}, Built using Gatsby & ♥️ (Responsive and
-        new features coming soon)
-      </div>
-      <div className="logos-container">
+    <div className="footer-content">
+      <div>© {new Date().getFullYear()}, Built using Gatsby & ♥️</div>
+      <div className="footer-logos-container">
         <a
-          className="logo-link"
+          className="footer-logo-link"
           href="https://www.linkedin.com/in/charlie-henin/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkedinSVG className="logo" />
+          <LinkedinSVG className="footer-logo" />
         </a>
         <a
-          className="logo-link"
+          className="footer-logo-link"
           href="https://github.com/kimchicharlie"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GithubSVG className="logo" />
+          <GithubSVG className="footer-logo" />
         </a>
       </div>
     </div>

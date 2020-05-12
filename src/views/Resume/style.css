@@ -2,19 +2,44 @@
   color: black;
   height: 100%;
   background-color: var(--light);
-  padding: 120px;
+  padding: 120px 0;
+  overflow: hidden;
 }
 
-.resume {
-  height: 1200px;
+.resume-animated {
+  margin: 0 auto;
+  height: 1240px;
+  width: 876px;
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s;
   will-change: transform;
   display: flex;
 }
 
+.resume {
+  display: none;
+}
+
 .resume:hover {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 878px) {
+  .resume-container {
+    padding: 0;
+  }
+
+  .resume-animated {
+    display: none;
+  }
+
+  .resume {
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 @media print {
@@ -32,7 +57,5 @@
 
   .resume {
     position: absolute;
-    top: 40px;
-    left: 30px;
   }
 }

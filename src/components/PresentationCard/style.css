@@ -1,0 +1,21 @@
+.presentation-card {
+  width: 96%;
+  height: 16%;
+  padding: 40px 0;
+  background: var(--dark);
+  color: var(--light);
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.presentation-card-name {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.presentation-card-title {
+  font-size: 24px;
+}

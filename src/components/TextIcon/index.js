@@ -10,9 +10,14 @@ const TextIcon = props => {
     href,
     vertical,
     iconSize,
+    className,
   } = props;
   return (
-    <div className={vertical ? 'text-icon-vertical' : 'text-icon-horizontal'}>
+    <div
+      className={`${vertical ? 'text-icon-vertical' : 'text-icon-horizontal'}${
+        className ? ` ${className}` : ''
+      }`}
+    >
       <IconComponent
         className={`text-icon-svg-${iconSize}${
           vertical ? '' : ' text-icon-svg-margin'

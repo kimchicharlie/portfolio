@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Layout from '@components/Layout';
-import Introduction from '@components/Introduction';
 import SEO from '@components/Seo';
+import Introduction from '@views/Introduction';
 
 const IndexPage = () => (
   <Layout>

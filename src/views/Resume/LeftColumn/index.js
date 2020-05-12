@@ -1,8 +1,9 @@
 import React from 'react';
 
-import SectionTitle from '@components/Resume/SectionTitle';
-import TextIcon from '@components/common/TextIcon';
+import SectionTitle from '@components/SectionTitle';
+import TextIcon from '@components/TextIcon';
 import CharlieImage from '@components/Image/Charlie';
+import PresentationCard from '@components/PresentationCard';
 
 import InfoSVG from '@icons/info.svg';
 import GroupSVG from '@icons/group.svg';
@@ -25,6 +26,11 @@ import './style.css';
 const LeftColumn = () => {
   return (
     <div className="left-column">
+      <PresentationCard
+        name="CHARLIE HENIN"
+        title="FULL STACK DEVELOPER"
+        className="left-presentation-card"
+      />
       <div className="picture-section">
         <div className="picture">
           <CharlieImage />
@@ -93,6 +99,7 @@ const LeftColumn = () => {
               text="Sports"
               vertical
               iconSize="big"
+              className="hobbies-section-icon"
             />
             <TextIcon
               iconComponent={HikingSVG}
@@ -108,13 +115,12 @@ const LeftColumn = () => {
               iconSize="big"
               className="hobbies-section-icon"
             />
-          </div>
-          <div className="hobbies-section-column">
             <TextIcon
               iconComponent={GuitarSVG}
               text="Guitar"
               vertical
               iconSize="big"
+              className="hobbies-section-icon"
             />
             <TextIcon
               iconComponent={CodeSVG}

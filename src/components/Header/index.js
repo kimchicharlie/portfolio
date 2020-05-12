@@ -6,19 +6,13 @@ import './style.css';
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <div className="content">
-      {/* <Link to="/" className="title">
-        {siteTitle}
-      </Link> */}
-      <div />
-      <div>
-        <Link to="/" className="link hoverable">
-          Homepage
-        </Link>
-        <Link to="/resume" className="link hoverable">
-          Resume
-        </Link>
-      </div>
+    <div className="header-content">
+      <Link to="/" className="header-link">
+        Homepage
+      </Link>
+      <Link to="/resume" className="header-link">
+        Resume
+      </Link>
     </div>
   </header>
 );

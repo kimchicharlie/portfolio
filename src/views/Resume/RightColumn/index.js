@@ -1,7 +1,8 @@
 import React from 'react';
 
-import SectionTitle from '@components/Resume/SectionTitle';
-import HistoricalList from '@components/Resume/HistoricalList';
+import SectionTitle from '@components/SectionTitle';
+import HistoricalList from '@components/HistoricalList';
+import PresentationCard from '@components/PresentationCard';
 
 import BookSVG from '@icons/book.svg';
 import BriefcaseSVG from '@icons/briefcase.svg';
@@ -14,10 +15,11 @@ import './style.css';
 const RightColumn = () => {
   return (
     <div className="right-column">
-      <div className="top-section">
-        <span className="top-section-name">CHARLIE HENIN</span>
-        <span className="top-section-title">FULL STACK DEVELOPER</span>
-      </div>
+      <PresentationCard
+        name="CHARLIE HENIN"
+        title="FULL STACK DEVELOPER"
+        className="right-presentation-card"
+      />
       <div className="experience-section">
         <SectionTitle iconComponent={BriefcaseSVG} title="EXPERIENCE" dark />
         <HistoricalList
