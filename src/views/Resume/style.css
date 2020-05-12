@@ -7,7 +7,9 @@
 }
 
 .resume-button-container {
-  width: 20%;
+  width: 876px;
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto 40px auto;
 }
 

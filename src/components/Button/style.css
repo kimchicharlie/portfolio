@@ -12,3 +12,14 @@
   opacity: 0.5;
   cursor: pointer;
 }
+
+.super-button-inverted {
+  background-color: var(--primary);
+  color: var(--light);
+  border: 1px var(--light) solid;
+}
+
+.super-button-inverted:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
