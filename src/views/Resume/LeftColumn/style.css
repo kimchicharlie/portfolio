@@ -93,6 +93,11 @@
   flex-basis: 50%;
 }
 
+.hobbies-section-icon:not(:nth-child(1)),
+.hobbies-section-icon:not(:nth-child(2)) {
+  margin-top: 24px;
+}
+
 @media screen and (max-width: 878px) {
   .left-column {
     width: 100%;
@@ -126,6 +131,11 @@
 
   .hobbies-section-icon {
     flex-basis: 16.66%;
+  }
+
+  .hobbies-section-icon:not(:nth-child(1)),
+  .hobbies-section-icon:not(:nth-child(2)) {
+    margin: 0;
   }
 }
 

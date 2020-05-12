@@ -1,0 +1,14 @@
+.super-button {
+  outline: none;
+  background-color: var(--light);
+  color: var(--primary);
+  border: 1px var(--primary) solid;
+  width: 240px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.super-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
