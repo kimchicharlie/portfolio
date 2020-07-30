@@ -8,30 +8,30 @@
 }
 
 .experience-section {
-  width: 88%;
+  width: 92%;
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .education-section {
-  width: 88%;
+  width: 92%;
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .language-section {
-  width: 88%;
+  width: 92%;
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .language-content {
   padding-left: 16px;
-  padding-top: 24px;
+  padding-top: 16px;
 }
 
 .language-flag {
-  width: 54px;
+  width: 40px;
 }
 
 .language-flag:not(:last-child) {
@@ -48,10 +48,7 @@
   }
 
   .language-section {
-    padding-bottom: 32px;
-  }
-
-  .language-flag {
-    width: 40px;
+    margin-top: 24px;
+    padding-bottom: 24px;
   }
 }

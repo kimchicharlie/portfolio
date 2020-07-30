@@ -76,7 +76,7 @@
 }
 
 .hobbies-section-content {
-  margin-top: 24px;
+  margin-top: 8px;
   font-size: 14px;
   display: flex;
 }
@@ -112,11 +112,11 @@
     justify-content: space-between;
   }
 
-  .left-presentation-card>.presentation-card-name {
+  .left-presentation-card > .presentation-card-name {
     font-size: 32px;
   }
 
-  .left-presentation-card>.presentation-card-title {
+  .left-presentation-card > .presentation-card-title {
     font-size: 24px;
   }
 
@@ -127,6 +127,10 @@
 
   .hobbies-section-column {
     padding-bottom: 32px;
+  }
+
+  .hobbies-section-content {
+    margin-top: 24px;
   }
 
   .hobbies-section-icon {

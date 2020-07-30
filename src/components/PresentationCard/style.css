@@ -1,7 +1,7 @@
 .presentation-card {
   width: 96%;
-  height: 16%;
-  padding: 40px 0;
+  height: 10%;
+  padding: 16px 0;
   background: var(--dark);
   color: var(--light);
   align-self: flex-end;
@@ -12,10 +12,10 @@
 }
 
 .presentation-card-name {
-  font-size: 56px;
+  font-size: 42px;
   font-weight: bold;
 }
 
 .presentation-card-title {
-  font-size: 24px;
+  font-size: 23px;
 }

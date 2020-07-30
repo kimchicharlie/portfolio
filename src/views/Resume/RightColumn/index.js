@@ -25,19 +25,19 @@ const RightColumn = () => {
         <HistoricalList
           items={[
             {
-              primary: 'Full Stack Developer',
+              primary: 'Full Stack Engineer',
               secondary: '@ SIGFOX (Labège, France)',
               optional: 'Oct 2018 - Present',
               description: [
-                'My job at Sigfox is to find technical solutions to business requirements through the development of digital products. But also: read code reviews, write tests, develop tools to simplify developers job, maintain existing services, take part in sprint plannings & sprint reviews.',
+                'Working on IoT-focused services written in Node.js/React. That involves: take part in Scrum ceremonies, estimate & develop features, write unit tests, read code reviews, release & deploy new versions, maintain existing services by fixing issues/bugs, write DevOps tools, tutoring for interns.',
               ],
             },
             {
               primary: 'Full Stack Developer',
               secondary: '@ MAESTRO CORPORATION (Toulouse, France)',
-              optional: 'Oct 2017 - Oct 2018 & Sep 2016 – Sep 2017 (Intern)',
+              optional: 'Sep 2016 - Oct 2018',
               description: [
-                'Development of REST Microservices, complex high traffic websites, various business applications and external projects.',
+                'Development of high traffic platforms in the ticketing industry, various business applications and external projects. All built using React.js and Node.js.',
               ],
             },
             {
@@ -45,8 +45,7 @@ const RightColumn = () => {
               secondary: '@ MAESTRO CORPORATION (Toulouse, France)',
               optional: 'Oct 2014 - Oct 2015',
               description: [
-                '- Development of an ERP: NodeJS, AngularJS and MongoDB.',
-                '- First steps with ReactJS on some business applications',
+                'Development of an ERP using Node.js, Angular and MongoDB. Also my first steps with React.js on some business applications.',
               ],
             },
           ]}
@@ -61,8 +60,10 @@ const RightColumn = () => {
               secondary: '@ EPITECH (Toulouse & Paris, France)',
               optional: '2012 - 2017',
               description: [
-                '- Learning programming tools /paradigms and project management.',
-                '- Learning essential relationship and impacts between technology et companies.',
+                '- Learning programming tools/paradigms (C, C++, Java, Ocaml, Python, ASM), project management through the Epitech Innovative Project and ',
+                '- Learning essential relationships and impacts between technology et companies.',
+                '- Vice president of the "BDE" (Students union): animating the campus life by organiczing small trips, videogames tournaments, sports games, ...',
+                '- Winning the "Toulouse Défi Numérique #2" Dataviz Award for the project "Où vont nos impots ?".',
               ],
             },
             {
@@ -70,8 +71,8 @@ const RightColumn = () => {
               secondary: '@ CHUNG-ANG UNIVERSITY (Seoul, South Korea)',
               optional: '2015 - 2016',
               description: [
-                '- Social and cultural experience.',
-                '- English skills improvement and korean elementary learning.',
+                '- Operating system, software engineering, korean culture & korean language courses.',
+                '- Social, cultural experience, great improvement of english skills.',
               ],
             },
           ]}

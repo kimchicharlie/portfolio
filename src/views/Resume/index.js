@@ -19,8 +19,8 @@ const Resume = () => {
   return (
     <div className="resume">
       <div className="resume-button-container">
-        <Button onClick={() => downloadFile('/charlie_compressed.pdf')}>
-          Download as PDF
+        <Button onClick={() => downloadFile('/charlie.png')}>
+          Download Resume
         </Button>
         <Button inverted onClick={() => setAnimated(!animated)}>
           {`${animated ? 'Disable' : 'Enable'} animation`}

@@ -73,20 +73,26 @@ const LeftColumn = () => {
         <SectionTitle iconComponent={TechnologySVG} title="TECHNOLOGIES" />
         <div className="technologies-section-content">
           <div className="technologies-section-column">
-            <span>HTML5/CSS3</span>
             <span>JavaScript</span>
+            <span>HTML5 / CSS3</span>
             <span>React.js</span>
+            <span>Webpack</span>
             <span>Node.js</span>
-            <span>Koa/Express</span>
-            <span>Jest/Cypress</span>
+            <span>Koa / Express</span>
+            <span>Jest / Cypress</span>
+            <span>Linux / MacOS</span>
+            <span>Micro services</span>
           </div>
           <div className="technologies-section-column">
-            <span>MongoDB</span>
+            <span>MongoDB / SQL</span>
             <span>Redis</span>
             <span>Docker</span>
             <span>Kubernetes</span>
-            <span>Gitlab/Github</span>
+            <span>GCP / OVH</span>
+            <span>Gitlab / Github</span>
             <span>Jenkins</span>
+            <span>Jira</span>
+            <span>Scrum</span>
           </div>
         </div>
       </div>
