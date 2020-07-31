@@ -62,7 +62,7 @@ const RightColumn = () => {
               description: [
                 '- Learning programming tools/paradigms (C, C++, Java, Ocaml, Python, ASM), project management through the Epitech Innovative Project and ',
                 '- Learning essential relationships and impacts between technology et companies.',
-                '- Vice president of the "BDE" (Students union): animating the campus life by organiczing small trips, videogames tournaments, sports games, ...',
+                '- Vice president of the "BDE" (Students union): animating the campus life by organizing small trips, videogames tournaments, sports games, ...',
                 '- Winning the "Toulouse Défi Numérique #2" Dataviz Award for the project "Où vont nos impots ?".',
               ],
             },
