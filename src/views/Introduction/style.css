@@ -1,10 +1,10 @@
-.introdution-container {
+.introduction-container {
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-.introdution-big-text {
+.introduction-big-text {
   margin-left: 10%;
   font-size: 56px;
   line-height: 40px;
@@ -12,42 +12,42 @@
   flex-direction: column;
 }
 
-.introdution-big-text>.introdution-secondary {
+.introduction-big-text > .introduction-secondary {
   color: var(--primary);
 }
 
-.introdution-link {
+.introduction-link {
   color: var(--light);
   text-decoration: none;
 }
 
-.introdution-link:hover {
+.introduction-link:hover {
   opacity: 0.5;
 }
 
 @media screen and (max-width: 960px) {
-  .introdution-big-text {
+  .introduction-big-text {
     font-size: 48px;
     line-height: 32px;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .introdution-big-text {
+  .introduction-big-text {
     font-size: 40px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .introdution-big-text {
+  .introduction-big-text {
     font-size: 32px;
     line-height: 18px;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .introdution-big-text {
+  .introduction-big-text {
     font-size: 24px;
     line-height: 14px;
   }

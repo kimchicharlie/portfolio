@@ -26,7 +26,12 @@ const Image = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="picture of Charlie Henin"
+    />
+  );
 };
 
 export default Image;
