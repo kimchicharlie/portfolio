@@ -7,13 +7,21 @@
 .introduction-big-text {
   margin-left: 10%;
   font-size: 56px;
-  line-height: 40px;
+  line-height: 1.1;
   display: flex;
   flex-direction: column;
 }
 
+.introduction-big-text > .introduction-title {
+  font-weight: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  margin-bottom: 16px;
+}
+
 .introduction-big-text > .introduction-secondary {
   color: var(--primary);
+  margin-bottom: 16px;
 }
 
 .introduction-link {
@@ -28,27 +36,23 @@
 @media screen and (max-width: 960px) {
   .introduction-big-text {
     font-size: 48px;
-    line-height: 32px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .introduction-big-text {
     font-size: 40px;
-    line-height: 24px;
   }
 }
 
 @media screen and (max-width: 560px) {
   .introduction-big-text {
     font-size: 32px;
-    line-height: 18px;
   }
 }
 
 @media screen and (max-width: 440px) {
   .introduction-big-text {
     font-size: 24px;
-    line-height: 14px;
   }
 }

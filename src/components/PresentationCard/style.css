@@ -12,6 +12,9 @@
 }
 
 .presentation-card-name {
+  font-size: 100%;
+  font-family: inherit;
+  margin-bottom: 0;
   font-size: 42px;
   font-weight: bold;
 }

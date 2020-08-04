@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Charlie Henin`,
-    description: `Full Stack Developer Node.js React Toulouse`,
+    title: `Charlie Henin Full Stack Developer Node.js React Toulouse`,
+    description: `This is the personal website of Charlie Henin, Full Stack Developer Node.js React based in Toulouse. I love building services using Javascript technologies.`,
     author: `kimchicharlie`,
   },
   plugins: [

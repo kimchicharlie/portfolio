@@ -5,7 +5,7 @@ import './style.css';
 
 const PresentationCard = ({ name, title, className }) => (
   <div className={`presentation-card${className ? ` ${className}` : ''}`}>
-    <span className="presentation-card-name">{name}</span>
+    <h1 className="presentation-card-name">{name}</h1>
     <span className="presentation-card-title">{title}</span>
   </div>
 );
