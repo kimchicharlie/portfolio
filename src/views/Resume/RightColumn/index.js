@@ -29,7 +29,39 @@ const RightColumn = () => {
               secondary: '@ SIGFOX (Labège, France)',
               optional: 'Oct 2018 - Present',
               description: [
-                'Working on IoT-focused services written in Node.js/React. That involves: take part in Scrum ceremonies, estimate & develop features, write unit tests, read code reviews, release & deploy new versions, maintain existing services by fixing issues/bugs, write DevOps tools, tutoring for interns.',
+                'Working on IoT-focused services written in Node.js/React. That involves: take part in Scrum ceremonies, work with UX to define interfaces, estimate & develop features, write unit tests, read code reviews, release & deploy new versions, maintain existing services by fixing issues/bugs, write DevOps tools, tutoring for interns.',
+              ],
+              products: [
+                {
+                  name: 'Build',
+                  url: 'https://build.sigfox.com',
+                },
+                {
+                  name: 'Partner',
+                  url: 'https://partners.sigfox.com',
+                },
+                {
+                  name: 'Buy',
+                  url: 'https://buy.sigfox.com',
+                },
+                {
+                  name: 'Support',
+                  url: 'https://support.sigfox.com',
+                },
+                {
+                  name: "Sens'it",
+                  url: 'https://sensit.io',
+                },
+                {
+                  name: 'Taxonomies',
+                },
+                {
+                  name: 'Flive',
+                  url: 'https://flive.sigfox.com/',
+                },
+                {
+                  name: 'Bingo',
+                },
               ],
             },
             {
@@ -39,14 +71,25 @@ const RightColumn = () => {
               description: [
                 'Development of high traffic platforms in the ticketing industry, various business applications and external projects. All built using React.js and Node.js.',
               ],
+              products: [
+                {
+                  name: 'Live Booker',
+                  url: 'https://live-booker.fr/',
+                },
+                {
+                  name: 'Next Concert',
+                  url: 'https://next-concert.fr',
+                },
+                {
+                  name: 'Hey Alex',
+                  url: 'https://hey-alex.fr',
+                },
+              ],
             },
             {
               primary: 'Intern',
               secondary: '@ MAESTRO CORPORATION (Toulouse, France)',
               optional: 'Oct 2014 - Oct 2015',
-              description: [
-                'Development of an ERP using Node.js, Angular and MongoDB. Also my first steps with React.js on some business applications.',
-              ],
             },
           ]}
         />

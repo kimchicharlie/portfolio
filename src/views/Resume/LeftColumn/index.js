@@ -40,8 +40,9 @@ const LeftColumn = () => {
         <SectionTitle iconComponent={InfoSVG} title="ABOUT ME" />
         <div className="about-section-content">
           <p>
-            Hi, I'm Charlie and I love developing digital products using hot
-            technologies.
+            I love developing digital products using hot technologies. My
+            everyday goal is trying to provide great user/developer experience
+            along with clean scalable code.
           </p>
         </div>
       </div>

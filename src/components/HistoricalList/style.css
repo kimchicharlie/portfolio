@@ -36,3 +36,21 @@
   font-size: 14px;
   text-align: justify;
 }
+
+.historical-list-item-products {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.historical-list-item-products-title {
+  font-weight: bold;
+}
+
+.historical-list-item-products-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.historical-list-item-products-link:hover {
+  opacity: 0.5;
+}
