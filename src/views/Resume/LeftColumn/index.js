@@ -4,6 +4,7 @@ import SectionTitle from '@components/SectionTitle';
 import TextIcon from '@components/TextIcon';
 import CharlieImage from '@components/Image/Charlie';
 import PresentationCard from '@components/PresentationCard';
+import { getData } from '@content/helpers';
 
 import InfoSVG from '@icons/info.svg';
 import GroupSVG from '@icons/group.svg';
@@ -24,11 +25,12 @@ import VideogameSVG from '@icons/videogame.svg';
 import './style.css';
 
 const LeftColumn = () => {
+  const { presentation, about, social, hobbies } = getData();
   return (
     <div className="left-column">
       <PresentationCard
         name="CHARLIE HENIN"
-        title="FULL STACK DEVELOPER"
+        title={presentation.title}
         className="left-presentation-card"
       />
       <div className="picture-section">
@@ -37,17 +39,13 @@ const LeftColumn = () => {
         </div>
       </div>
       <div className="about-section">
-        <SectionTitle iconComponent={InfoSVG} title="ABOUT ME" />
+        <SectionTitle iconComponent={InfoSVG} title={about.title} />
         <div className="about-section-content">
-          <p>
-            Confirmed Full Stack Developer with 3+ years experience implementing
-            web services in agile environments. I love frontend & backend
-            development as much as DevOps.
-          </p>
+          <p>{about.content}</p>
         </div>
       </div>
       <div className="social-section">
-        <SectionTitle iconComponent={GroupSVG} title="I AM SOCIAL" />
+        <SectionTitle iconComponent={GroupSVG} title={social.title} />
         <div className="social-section-content">
           <div className="text-icons">
             <TextIcon iconComponent={PhoneSVG} text="+33.629.68.53.34" />
@@ -98,47 +96,47 @@ const LeftColumn = () => {
         </div>
       </div>
       <div className="hobbies-section">
-        <SectionTitle iconComponent={HappySVG} title="HOBBIES" />
+        <SectionTitle iconComponent={HappySVG} title={hobbies.title} />
         <div className="hobbies-section-content">
           <div className="hobbies-section-column">
             <TextIcon
               iconComponent={RacketSVG}
-              text="Sports"
+              text={hobbies.items.sports}
               vertical
               iconSize="big"
               className="hobbies-section-icon"
             />
             <TextIcon
               iconComponent={HikingSVG}
-              text="Hiking"
+              text={hobbies.items.hiking}
               vertical
               iconSize="big"
               className="hobbies-section-icon"
             />
             <TextIcon
               iconComponent={EarthSVG}
-              text="Travels"
+              text={hobbies.items.travels}
               vertical
               iconSize="big"
               className="hobbies-section-icon"
             />
             <TextIcon
               iconComponent={GuitarSVG}
-              text="Guitar"
+              text={hobbies.items.guitar}
               vertical
               iconSize="big"
               className="hobbies-section-icon"
             />
             <TextIcon
               iconComponent={CodeSVG}
-              text="Coding"
+              text={hobbies.items.coding}
               vertical
               iconSize="big"
               className="hobbies-section-icon"
             />
             <TextIcon
               iconComponent={VideogameSVG}
-              text="Video games"
+              text={hobbies.items.videogames}
               vertical
               iconSize="big"
               className="hobbies-section-icon"

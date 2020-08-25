@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 
 import PaperAnimation from '@components/PaperAnimation';
 import Button from '@components/Button';
+import { getData } from '@content/helpers';
+
 import LeftColumn from './LeftColumn';
 import RightColumn from './RightColumn';
+
 import './style.css';
 
 const downloadFile = path => {
@@ -16,14 +19,17 @@ const downloadFile = path => {
 
 const Resume = () => {
   const [animated, setAnimated] = useState(false);
+  const { downloadButton, animationButton } = getData();
   return (
     <div className="resume">
       <div className="resume-button-container">
-        <Button onClick={() => downloadFile('/charlie.pdf')}>
-          Download Resume
+        <Button onClick={() => downloadFile(downloadButton.filename)}>
+          {downloadButton.text}
         </Button>
         <Button inverted onClick={() => setAnimated(!animated)}>
-          {`${animated ? 'Disable' : 'Enable'} animation`}
+          {`${animated ? animationButton.disable : animationButton.enable} ${
+            animationButton.animation
+          }`}
         </Button>
       </div>
       <div className="resume-container">

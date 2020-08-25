@@ -34,24 +34,28 @@
   margin-top: 8px;
   display: flex;
   flex-direction: column;
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.historical-list-item-products {
+.historical-list-item-description-item {
+  margin-bottom: 4px;
+}
+
+.historical-list-item-services {
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
-.historical-list-item-products-title {
+.historical-list-item-services-title {
   font-weight: bold;
 }
 
-.historical-list-item-products-link {
+.historical-list-item-services-link {
   text-decoration: none;
   color: inherit;
 }
 
-.historical-list-item-products-link:hover {
+.historical-list-item-services-link:hover {
   opacity: 0.5;
 }

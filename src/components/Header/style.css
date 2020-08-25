@@ -11,7 +11,8 @@
   width: 90%;
   margin: auto;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-link {
@@ -29,6 +30,14 @@
   margin-left: 24px;
 }
 
+.language-flag-link:not(:last-child) {
+  margin-right: 16px;
+}
+
+.language-flag {
+  width: 40px;
+}
+
 @media screen and (max-width: 960px) {
   .header {
     height: 72px;
@@ -36,6 +45,10 @@
 
   .header-link {
     font-size: 17px;
+  }
+
+  .language-flag {
+    width: 24px;
   }
 }
 

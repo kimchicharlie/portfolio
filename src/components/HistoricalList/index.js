@@ -30,17 +30,22 @@ const HistoricalList = props => {
           {item.description && (
             <div className="historical-list-item-description">
               {item.description.map(description => (
-                <span key={description}>{description}</span>
+                <span
+                  className="historical-list-item-description-item"
+                  key={description}
+                >
+                  {description}
+                </span>
               ))}
             </div>
           )}
-          {item.products && (
-            <div className="historical-list-item-products">
-              <span className="historical-list-item-products-title">
-                Products:{' '}
+          {item.services && (
+            <div className="historical-list-item-services">
+              <span className="historical-list-item-services-title">
+                Services:{' '}
               </span>
-              {item.products.map(({ name, url }, index) => {
-                const isLastProduct = item.products.length === index + 1;
+              {item.services.map(({ name, url }, index) => {
+                const isLastProduct = item.services.length === index + 1;
                 return url ? (
                   <span>
                     <a
@@ -48,7 +53,7 @@ const HistoricalList = props => {
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="historical-list-item-products-link"
+                      className="historical-list-item-services-link"
                     >
                       {name}
                     </a>
@@ -75,7 +80,7 @@ HistoricalList.propTypes = {
       secondary: PropTypes.string.isRequired,
       optional: PropTypes.string,
       description: PropTypes.arrayOf(PropTypes.string),
-      products: PropTypes.arrayOf(
+      services: PropTypes.arrayOf(
         PropTypes.shape({
           name: PropTypes.string.isRequired,
           url: PropTypes.string,

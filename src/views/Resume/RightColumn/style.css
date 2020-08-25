@@ -19,25 +19,6 @@
   margin-top: 24px;
 }
 
-.language-section {
-  width: 92%;
-  margin: 0 auto;
-  margin-top: 24px;
-}
-
-.language-content {
-  padding-left: 16px;
-  padding-top: 16px;
-}
-
-.language-flag {
-  width: 40px;
-}
-
-.language-flag:not(:last-child) {
-  margin-right: 16px;
-}
-
 @media screen and (max-width: 878px) {
   .right-column {
     width: 100%;
@@ -45,10 +26,5 @@
 
   .right-presentation-card {
     display: none;
-  }
-
-  .language-section {
-    margin-top: 24px;
-    padding-bottom: 24px;
   }
 }
