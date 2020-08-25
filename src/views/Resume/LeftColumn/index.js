@@ -40,9 +40,9 @@ const LeftColumn = () => {
         <SectionTitle iconComponent={InfoSVG} title="ABOUT ME" />
         <div className="about-section-content">
           <p>
-            I love developing digital products using hot technologies. My
-            everyday goal is trying to provide great user/developer experience
-            along with clean scalable code.
+            Confirmed Full Stack Developer with 3+ years experience implementing
+            web services in agile environments. I love frontend & backend
+            development as much as DevOps.
           </p>
         </div>
       </div>

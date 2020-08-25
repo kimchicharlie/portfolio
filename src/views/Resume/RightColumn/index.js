@@ -29,7 +29,13 @@ const RightColumn = () => {
               secondary: '@ SIGFOX (Labège, France)',
               optional: 'Oct 2018 - Present',
               description: [
-                'Working on IoT-focused services written in Node.js/React. That involves: take part in Scrum ceremonies, work with UX to define interfaces, estimate & develop features, write unit tests, read code reviews, release & deploy new versions, maintain existing services by fixing issues/bugs, write DevOps tools, tutoring for interns.',
+                '- Maintain and improve the Sigfox ecosystem platforms (see products list below).',
+                '- Rewrite completely legacy Node.js REST API with Koa.',
+                '- Write a mobile first Bingo application to demonstrate a low cost Sigfox device at the Sigfox Connect event in Singapore.',
+                '- Migrate applications from OVH custom environment to GCP based Kubernetes infrastructure.',
+                '- Write and document npm packages from modules reused through our codebases.',
+                '- Develop and document Flive: a library of React components implementing the Sigfox’s design system constraints in order to improve the development experience of new platforms.',
+                '- Mentor 2 beginner developers through exercices, pair programming & tech explanations.',
               ],
               products: [
                 {
@@ -61,6 +67,7 @@ const RightColumn = () => {
                 },
                 {
                   name: 'Bingo',
+                  url: 'https://www.bingo-sigfoxconnect.com/',
                 },
               ],
             },
@@ -103,10 +110,11 @@ const RightColumn = () => {
               secondary: '@ EPITECH (Toulouse & Paris, France)',
               optional: '2012 - 2017',
               description: [
-                '- Learning programming tools/paradigms (C, C++, Java, Ocaml, Python, ASM), project management through the Epitech Innovative Project and ',
-                '- Learning essential relationships and impacts between technology et companies.',
+                '- Learning programming concepts/paradigms (C, C++, Ocaml, Python, ASM, Java) through the development of multiple small projects.',
+                '- Courses on various topics including mathematics, network, project management, english, uml, entrepreneurship.',
                 '- Vice president of the "BDE" (Students union): animating the campus life by organizing small trips, videogames tournaments, sports games, ...',
-                '- Winning the "Toulouse Défi Numérique #2" Dataviz Award for the project "Où vont nos impots ?".',
+                '- Winning the "Toulouse Défi Numérique" Dataviz Award for the project "Où vont nos impots ?".',
+                '- Development of a domotic solution to regulate temperature and brightness through switchable glass for the Epitech Innovative Project.',
               ],
             },
             {

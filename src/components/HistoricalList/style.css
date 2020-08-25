@@ -1,10 +1,10 @@
 .historical-list {
-  margin-top: 16px;
-  padding-left: 16px;
+  margin-top: 12px;
+  padding-left: 8px;
 }
 
 .historical-list-item:not(:last-child) {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .historical-list-item-info {
@@ -24,7 +24,8 @@
 }
 
 .historical-list-item-info-optional {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 16px;
   opacity: 0.6;
   font-style: italic;
 }
@@ -33,13 +34,13 @@
   margin-top: 8px;
   display: flex;
   flex-direction: column;
-  font-size: 14px;
-  text-align: justify;
+  font-size: 13px;
+  line-height: 22px;
 }
 
 .historical-list-item-products {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .historical-list-item-products-title {

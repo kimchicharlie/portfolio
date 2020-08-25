@@ -22,10 +22,8 @@ const HistoricalList = props => {
               </span>
             </div>
             {item.optional && (
-              <div>
-                <span className="historical-list-item-info-optional ">
-                  {item.optional}
-                </span>
+              <div className="historical-list-item-info-optional">
+                {item.optional}
               </div>
             )}
           </div>

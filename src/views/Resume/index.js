@@ -19,7 +19,7 @@ const Resume = () => {
   return (
     <div className="resume">
       <div className="resume-button-container">
-        <Button onClick={() => downloadFile('/charlie.png')}>
+        <Button onClick={() => downloadFile('/charlie.pdf')}>
           Download Resume
         </Button>
         <Button inverted onClick={() => setAnimated(!animated)}>
