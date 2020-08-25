@@ -248,7 +248,7 @@ export default {
           },
           {
             primary: 'Développeur Full Stack',
-            secondary: '@ MAESTRO CORPORATION (Toulouse, France)',
+            secondary: 'à MAESTRO CORPORATION (Toulouse, France)',
             optional: 'Sep 2016 - Oct 2018',
             description: [
               "Développement de plateformes à fort traffic dans l'industrie de la billetterie et des applications métiers.",
@@ -270,7 +270,7 @@ export default {
           },
           {
             primary: 'Stagiaire',
-            secondary: '@ MAESTRO CORPORATION (Toulouse, France)',
+            secondary: 'à MAESTRO CORPORATION (Toulouse, France)',
             optional: 'Oct 2014 - Oct 2015',
           },
         ],
@@ -282,7 +282,7 @@ export default {
         items: [
           {
             primary: "Expert en Technologies de l'Information",
-            secondary: '@ EPITECH (France)',
+            secondary: 'à EPITECH (France)',
             optional: '2012 - 2017',
             description: [
               '- Apprentissage des différents concepts et paradigmes de programmation (C, C++, Ocaml, Python, ASM, Java). Pédagogie par projets.',
@@ -294,7 +294,7 @@ export default {
           },
           {
             primary: 'Master 1 Computer Sc.',
-            secondary: '@ UNIVERSITE CHUNG-ANG (Corée du Sud)',
+            secondary: 'à UNIVERSITE CHUNG-ANG (Corée du Sud)',
             optional: '2015 - 2016',
             description: [
               "- Systèmes d'exploitation, architecture logiciel, culture et langue coréenne.",
