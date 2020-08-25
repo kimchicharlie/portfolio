@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import PaperAnimation from '@components/PaperAnimation';
 import Button from '@components/Button';
-import { getData } from '@content/helpers';
+import { getLangData } from '@content/helpers';
 
 import LeftColumn from './LeftColumn';
 import RightColumn from './RightColumn';
@@ -17,9 +17,9 @@ const downloadFile = path => {
   anchor.click();
 };
 
-const Resume = () => {
+const Resume = ({ lang }) => {
   const [animated, setAnimated] = useState(false);
-  const { downloadButton, animationButton } = getData();
+  const { downloadButton, animationButton } = getLangData(lang);
   return (
     <div className="resume">
       <div className="resume-button-container">
@@ -35,13 +35,13 @@ const Resume = () => {
       <div className="resume-container">
         {animated ? (
           <PaperAnimation className="resume-paper">
-            <LeftColumn />
-            <RightColumn />
+            <LeftColumn lang={lang} />
+            <RightColumn lang={lang} />
           </PaperAnimation>
         ) : (
           <div className="resume-paper">
-            <LeftColumn />
-            <RightColumn />
+            <LeftColumn lang={lang} />
+            <RightColumn lang={lang} />
           </div>
         )}
       </div>

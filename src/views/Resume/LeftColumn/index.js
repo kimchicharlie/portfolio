@@ -4,7 +4,7 @@ import SectionTitle from '@components/SectionTitle';
 import TextIcon from '@components/TextIcon';
 import CharlieImage from '@components/Image/Charlie';
 import PresentationCard from '@components/PresentationCard';
-import { getData } from '@content/helpers';
+import { getLangData } from '@content/helpers';
 
 import InfoSVG from '@icons/info.svg';
 import GroupSVG from '@icons/group.svg';
@@ -24,8 +24,8 @@ import VideogameSVG from '@icons/videogame.svg';
 
 import './style.css';
 
-const LeftColumn = () => {
-  const { presentation, about, social, hobbies } = getData();
+const LeftColumn = ({ lang }) => {
+  const { presentation, about, social, hobbies } = getLangData(lang);
   return (
     <div className="left-column">
       <PresentationCard

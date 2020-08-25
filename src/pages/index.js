@@ -3,12 +3,12 @@ import React from 'react';
 import Layout from '@components/Layout';
 import SEO from '@components/Seo';
 import Introduction from '@views/Introduction';
-import { getLang } from '@content/helpers';
+import { getLangFromLocation } from '@content/helpers';
 
-const IndexPage = () => {
-  const lang = getLang();
+const IndexPage = ({ location }) => {
+  const lang = getLangFromLocation(location);
   return (
-    <Layout>
+    <Layout location={location} lang={lang}>
       <SEO title="Home" />
       <Introduction lang={lang} />
     </Layout>

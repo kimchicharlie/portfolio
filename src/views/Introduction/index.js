@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import { getData, getLang } from '@content/helpers';
+import { getLangData } from '@content/helpers';
 
 import './style.css';
 
-const Introduction = () => {
-  const lang = getLang();
-  const { introduction } = getData();
+const Introduction = ({ lang }) => {
+  const { introduction } = getLangData(lang);
   return (
     <div className="introduction-container">
       <div className="introduction-big-text">

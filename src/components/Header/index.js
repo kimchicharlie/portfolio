@@ -4,13 +4,12 @@ import React from 'react';
 
 import FranceSVG from '@icons/france.svg';
 import UkSVG from '@icons/uk.svg';
-import { getLang, getData } from '@content/helpers';
+import { getLangData } from '@content/helpers';
 
 import './style.css';
 
-const Header = ({ siteTitle }) => {
-  const lang = getLang();
-  const { header } = getData();
+const Header = ({ siteTitle, lang, location }) => {
+  const { header } = getLangData(lang);
   return (
     <header className="header">
       <div className="header-content">
@@ -29,11 +28,11 @@ const Header = ({ siteTitle }) => {
           </Link>
         </div>
         <div>
-          <Link to={window.location.pathname} className="language-flag-link">
+          <Link to={location.pathname} className="language-flag-link">
             <UkSVG className="language-flag" />
           </Link>
           <Link
-            to={`${window.location.pathname}?lang=fr`}
+            to={`${location.pathname}?lang=fr`}
             className="language-flag-link"
           >
             <FranceSVG className="language-flag" />

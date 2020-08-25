@@ -3,15 +3,15 @@ import React from 'react';
 import SectionTitle from '@components/SectionTitle';
 import HistoricalList from '@components/HistoricalList';
 import PresentationCard from '@components/PresentationCard';
-import { getData } from '@content/helpers';
+import { getLangData } from '@content/helpers';
 
 import BookSVG from '@icons/book.svg';
 import BriefcaseSVG from '@icons/briefcase.svg';
 
 import './style.css';
 
-const RightColumn = () => {
-  const { presentation, experience, education } = getData();
+const RightColumn = ({ lang }) => {
+  const { presentation, experience, education } = getLangData(lang);
   return (
     <div className="right-column">
       <PresentationCard

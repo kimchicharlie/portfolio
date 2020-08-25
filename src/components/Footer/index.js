@@ -2,12 +2,12 @@ import React from 'react';
 
 import LinkedinSVG from '@icons/linkedin.svg';
 import GithubSVG from '@icons/github.svg';
-import { getData } from '@content/helpers';
+import { getLangData } from '@content/helpers';
 
 import './style.css';
 
-const Footer = () => {
-  const { footer } = getData();
+const Footer = ({ lang }) => {
+  const { footer } = getLangData(lang);
   return (
     <footer className="footer">
       <div className="footer-content">
