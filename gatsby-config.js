@@ -3,9 +3,11 @@ module.exports = {
     title: `Charlie Henin Full Stack Developer Node.js React Toulouse`,
     description: `This is the personal website of Charlie Henin, Full Stack Developer Node.js React based in Toulouse. I love building services using Javascript technologies.`,
     author: `kimchicharlie`,
+    siteUrl: `https://www.charliehenin.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
