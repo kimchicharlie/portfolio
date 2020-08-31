@@ -38,6 +38,7 @@ module.exports = {
           '@pages': 'src/pages',
           '@images': 'assets/images',
           '@icons': 'assets/icons',
+          '@files': 'assets/files',
           '@content': 'src/content',
         },
         extensions: [],

@@ -14,7 +14,6 @@ export default {
     },
     downloadButton: {
       text: 'Download Resume',
-      filename: 'resume-en.pdf',
     },
     animationButton: {
       enable: 'Enable',
@@ -167,7 +166,6 @@ export default {
     },
     downloadButton: {
       text: 'Télécharger le CV',
-      filename: 'resume-fr.pdf',
     },
     animationButton: {
       enable: 'Activer',

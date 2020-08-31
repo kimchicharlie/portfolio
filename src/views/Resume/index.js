@@ -3,15 +3,23 @@ import React, { useState } from 'react';
 import PaperAnimation from '@components/PaperAnimation';
 import Button from '@components/Button';
 import { getLangData } from '@content/helpers';
+import resumeFr from '@files/resume-fr.pdf';
+import resumeEn from '@files/resume-en.pdf';
 
 import LeftColumn from './LeftColumn';
 import RightColumn from './RightColumn';
 
 import './style.css';
 
-const downloadFile = path => {
+const getResumeByLang = lang => {
+  if (lang === 'fr') return resumeFr;
+  return resumeEn;
+};
+
+const downloadResume = lang => {
   const anchor = document.createElement('a');
-  anchor.href = path;
+  const resume = getResumeByLang(lang);
+  anchor.href = resume;
   anchor.target = '_blank';
   anchor.download = 'charlie-henin-resume';
   anchor.click();
@@ -23,7 +31,7 @@ const Resume = ({ lang }) => {
   return (
     <div className="resume">
       <div className="resume-button-container">
-        <Button onClick={() => downloadFile(downloadButton.filename)}>
+        <Button onClick={() => downloadResume(lang)}>
           {downloadButton.text}
         </Button>
         <Button inverted onClick={() => setAnimated(!animated)}>
