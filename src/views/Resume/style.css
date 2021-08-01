@@ -7,7 +7,7 @@
 }
 
 .resume-button-container {
-  width: 876px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto 40px auto;
@@ -15,8 +15,8 @@
 
 .resume-paper {
   margin: 0 auto;
-  height: 1240px;
-  width: 876px;
+  height: 1415px;
+  width: 1000px;
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s;
   will-change: transform;

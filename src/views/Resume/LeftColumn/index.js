@@ -74,8 +74,9 @@ const LeftColumn = ({ lang }) => {
           <div className="technologies-section-column">
             <span>JavaScript</span>
             <span>HTML5 / CSS3</span>
-            <span>React.js</span>
+            <span>React.js / Apollo</span>
             <span>Webpack</span>
+            <span>GraphQL / Prisma</span>
             <span>Node.js</span>
             <span>Koa / Express</span>
             <span>Jest / Cypress</span>
@@ -88,10 +89,11 @@ const LeftColumn = ({ lang }) => {
             <span>Docker</span>
             <span>Kubernetes</span>
             <span>GCP / OVH</span>
+            <span>AWS / Heroku</span>
             <span>Gitlab / Github</span>
             <span>Jenkins</span>
             <span>Jira</span>
-            <span>Scrum</span>
+            <span>Agile / Scrum</span>
           </div>
         </div>
       </div>

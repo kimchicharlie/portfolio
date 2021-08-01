@@ -26,7 +26,7 @@ export default {
     about: {
       title: 'ABOUT ME',
       content:
-        'Confirmed Full Stack Developer with 3+ years experience implementing web services in agile environments. I love frontend & backend development as much as DevOps.',
+        'Confirmed Full Stack Developer with 5+ years experience implementing web services in agile environments. I love frontend & backend development as much as DevOps.',
     },
     social: {
       title: 'I AM SOCIAL',
@@ -48,8 +48,24 @@ export default {
         items: [
           {
             primary: 'Full Stack Engineer',
+            secondary: '@ BELLMAN (Remote / Paris, France)',
+            optional: 'Oct 2020 - Present',
+            description: [
+              '- Maintain and improve Lobby, the software used by landlords and property managers.',
+              '- Build, document and deploy an OCR service to extract essential data from financial documents.',
+              '- Implement a payment scheduling system using Node, React, Stripe and AWS Step functions.',
+            ],
+            services: [
+              {
+                name: 'Bellman',
+                url: 'https://bellman.immo/',
+              },
+            ],
+          },
+          {
+            primary: 'Full Stack Engineer',
             secondary: '@ SIGFOX (Labège, France)',
-            optional: 'Oct 2018 - Present',
+            optional: 'Oct 2018 - Oct 2020',
             description: [
               '- Maintain and improve the Sigfox ecosystem platforms (see services list below).',
               '- Write a mobile first Bingo application to demonstrate a low cost Sigfox device at the Sigfox Connect event in Singapore.',
@@ -178,7 +194,7 @@ export default {
     about: {
       title: 'A PROPOS',
       content:
-        "Développeur Full Stack avec 3 ans d'expérience dans le développement de services web dans des environnements agiles. J'aime le frontend/backend et le DevOps.",
+        "Développeur Full Stack avec 5 ans d'expérience dans le développement de services web dans des environnements agiles. J'aime le frontend/backend et le DevOps.",
     },
     social: {
       title: 'ME CONTACTER',
@@ -199,9 +215,25 @@ export default {
       historical: {
         items: [
           {
+            primary: 'Full Stack Engineer',
+            secondary: '@ BELLMAN (Télétravail / Paris, France)',
+            optional: 'Oct 2020 - Présent',
+            description: [
+              '- Maintenir et améliorer Lobby, le logiciel utilisé par les copropriétaires et gestionnaires de copro.',
+              "- Développer, documenter et déployer un OCR afin d'extraire des données de documents financiers.",
+              '- Implementer un échéancier de prélèvements automatiques en utilisant Stripe + Step Functions.',
+            ],
+            services: [
+              {
+                name: 'Bellman',
+                url: 'https://bellman.immo/',
+              },
+            ],
+          },
+          {
             primary: 'Ingénieur Full Stack',
             secondary: 'à SIGFOX (Labège, France)',
-            optional: 'Oct 2018 - Présent',
+            optional: 'Oct 2018 - Oct 2020',
             description: [
               "- Maintenir et améliorer les plateformes de l'écosystème Sigfox.",
               '- Créer une application de Bingo mobile first pour présenter un device Sigfox low cost au Sigfox Connect à Singapour.',
