@@ -1,9 +1,9 @@
 import React from 'react';
 import type { PageProps } from 'gatsby';
 
-import Layout from '@components/Layout';
+import { Layout } from '@components/Layout';
 import SEO from '@components/Seo';
-import Introduction from '@views/Introduction';
+import { Introduction } from '@views/Introduction';
 import { getLangFromLocation } from '@content/helpers';
 
 const IndexPage = ({ location }: PageProps) => {

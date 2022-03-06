@@ -1,5 +1,8 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
+import { StyledResumePaper } from '../../views/Resume/Resume.styled';
+
+const AnimatedPaper = animated(StyledResumePaper);
 
 const calc = (x: number, y: number) => [
   (y - window.innerHeight / 2) / 80,
@@ -19,8 +22,14 @@ const PaperAnimation = (props: any) => {
     config: { mass: 10, tension: 350, friction: 40 },
   }));
   return (
-    <animated.div
-      onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+    <AnimatedPaper
+      onMouseMove={({
+        clientX: x,
+        clientY: y,
+      }: {
+        clientX: number;
+        clientY: number;
+      }) => set({ xys: calc(x, y) })}
       onMouseLeave={() => set({ xys: [0, 0, 1] })}
       style={{
         transform: springProps.xys.interpolate(trans),

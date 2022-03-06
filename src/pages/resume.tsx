@@ -1,9 +1,9 @@
 import React from 'react';
 import type { PageProps } from 'gatsby';
 
-import Layout from '@components/Layout';
+import { Layout } from '@components/Layout';
 import SEO from '@components/Seo';
-import Resume from '@views/Resume';
+import { Resume } from '@views/Resume';
 import { getLangFromLocation } from '@content/helpers';
 
 const ResumePage = ({ location }: PageProps) => {
