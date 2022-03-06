@@ -4,9 +4,11 @@ import LinkedinSVG from '@icons/linkedin.svg';
 import GithubSVG from '@icons/github.svg';
 import { getLangData } from '@content/helpers';
 
+import { Languages } from '../../content/constant';
+
 import './style.css';
 
-const Footer = ({ lang }) => {
+const Footer = ({ lang }: { lang: Languages }) => {
   const { footer } = getLangData(lang);
   return (
     <footer className="footer">

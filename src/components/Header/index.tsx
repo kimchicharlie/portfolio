@@ -1,14 +1,21 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import FranceSVG from '@icons/france.svg';
 import UkSVG from '@icons/uk.svg';
 import { getLangData } from '@content/helpers';
+import type { PageProps } from 'gatsby';
 
 import './style.css';
+import { Languages } from '../../content/constant';
 
-const Header = ({ siteTitle, lang, location }) => {
+const Header = ({
+  lang,
+  location,
+}: {
+  lang: Languages;
+  location: PageProps['location'];
+}) => {
   const { header } = getLangData(lang);
   return (
     <header className="header">
@@ -41,14 +48,6 @@ const Header = ({ siteTitle, lang, location }) => {
       </div>
     </header>
   );
-};
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
 };
 
 export default Header;

@@ -6,14 +6,23 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
+import type { PageProps } from 'gatsby';
 
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import './style.css';
+import { Languages } from '../../content/constant';
 
-const Layout = ({ children, lang, location }) => {
+const Layout = ({
+  children,
+  lang,
+  location,
+}: {
+  children: React.ReactChildren;
+  lang: Languages;
+  location: PageProps['location'];
+}) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -35,10 +44,6 @@ const Layout = ({ children, lang, location }) => {
       <Footer lang={lang} />
     </div>
   );
-};
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

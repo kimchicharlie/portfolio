@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import './style.css';
+import { DataItems } from '../../content/data';
 
-const HistoricalList = props => {
-  const { items } = props;
+const HistoricalList = ({ items }: { items: DataItems }) => {
   return (
     <div className="historical-list">
       {items.map(item => (
@@ -44,8 +43,8 @@ const HistoricalList = props => {
               <span className="historical-list-item-services-title">
                 Services:{' '}
               </span>
-              {item.services.map(({ name, url }, index) => {
-                const isLastProduct = item.services.length === index + 1;
+              {item?.services.map(({ name, url }, index) => {
+                const isLastProduct = item?.services?.length === index + 1;
                 return url ? (
                   <span>
                     <a
@@ -71,23 +70,6 @@ const HistoricalList = props => {
       ))}
     </div>
   );
-};
-
-HistoricalList.propTypes = {
-  items: PropTypes.arrayOf(
-    PropTypes.shape({
-      primary: PropTypes.string.isRequired,
-      secondary: PropTypes.string.isRequired,
-      optional: PropTypes.string,
-      description: PropTypes.arrayOf(PropTypes.string),
-      services: PropTypes.arrayOf(
-        PropTypes.shape({
-          name: PropTypes.string.isRequired,
-          url: PropTypes.string,
-        })
-      ),
-    })
-  ),
 };
 
 export default HistoricalList;

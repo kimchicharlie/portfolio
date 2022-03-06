@@ -8,13 +8,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-robots-txt`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/assets/images`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -26,7 +19,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `assets/images/charlie-icon.png`,
+        icon: `static/images/charlie-icon.png`,
       },
     },
     {
@@ -36,9 +29,9 @@ module.exports = {
           '@components': 'src/components',
           '@views': 'src/views',
           '@pages': 'src/pages',
-          '@images': 'assets/images',
-          '@icons': 'assets/icons',
-          '@files': 'assets/files',
+          '@images': 'static/images',
+          '@icons': 'static/icons',
+          '@files': 'static/files',
           '@content': 'src/content',
         },
         extensions: [],
@@ -48,7 +41,7 @@ module.exports = {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
-          include: /assets/,
+          include: /static/,
         },
       },
     },

@@ -4,8 +4,9 @@ import { Link } from 'gatsby';
 import { getLangData } from '@content/helpers';
 
 import './style.css';
+import { Languages } from '../../content/constant';
 
-const Introduction = ({ lang }) => {
+const Introduction = ({ lang }: { lang: Languages }) => {
   const { introduction } = getLangData(lang);
   return (
     <div className="introduction-container">

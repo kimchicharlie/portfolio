@@ -23,8 +23,9 @@ import CodeSVG from '@icons/code.svg';
 import VideogameSVG from '@icons/videogame.svg';
 
 import './style.css';
+import { Languages } from '../../../content/constant';
 
-const LeftColumn = ({ lang }) => {
+const LeftColumn = ({ lang }: { lang: Languages }) => {
   const { presentation, about, social, hobbies } = getLangData(lang);
   return (
     <div className="left-column">
@@ -34,9 +35,7 @@ const LeftColumn = ({ lang }) => {
         className="left-presentation-card"
       />
       <div className="picture-section">
-        <div className="picture">
-          <CharlieImage />
-        </div>
+        <img src="/images/charlie.png" className="picture" />
       </div>
       <div className="about-section">
         <SectionTitle iconComponent={InfoSVG} title={about.title} />

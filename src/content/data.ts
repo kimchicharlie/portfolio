@@ -1,5 +1,22 @@
-export default {
-  en: {
+import { LANG_EN, LANG_FR } from './constant';
+
+export type DataItemService = {
+  name: string;
+  url?: string;
+};
+
+export type DataItem = {
+  primary: string;
+  secondary: string;
+  optional?: string;
+  description?: string[];
+  services?: DataItemService[];
+};
+
+export type DataItems = DataItem[];
+
+const data = {
+  [LANG_EN]: {
     header: {
       homepage: 'Homepage',
       resume: 'Resume',
@@ -167,7 +184,7 @@ export default {
       },
     },
   },
-  fr: {
+  [LANG_FR]: {
     header: {
       homepage: 'Accueil',
       resume: 'CV',
@@ -336,3 +353,5 @@ export default {
     },
   },
 };
+
+export default data;

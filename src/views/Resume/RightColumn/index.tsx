@@ -10,7 +10,9 @@ import BriefcaseSVG from '@icons/briefcase.svg';
 
 import './style.css';
 
-const RightColumn = ({ lang }) => {
+import { Languages } from '../../../content/constant';
+
+const RightColumn = ({ lang }: { lang: Languages }) => {
   const { presentation, experience, education } = getLangData(lang);
   return (
     <div className="right-column">
