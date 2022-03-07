@@ -15,7 +15,7 @@ export type DataItem = {
 
 export type DataItems = DataItem[];
 
-const data = {
+export const data = {
   [LANG_EN]: {
     header: {
       homepage: 'Homepage',
@@ -353,5 +353,3 @@ const data = {
     },
   },
 };
-
-export default data;

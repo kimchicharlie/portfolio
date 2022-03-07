@@ -10,7 +10,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import type { PageProps } from 'gatsby';
 
 import { Header } from '@components/Header';
-import Footer from '@components/Footer';
+import { Footer } from '@components/Footer';
 import { Languages } from '../../content/constant';
 import { StyledLayoutContainer, StyledLayoutContent } from './Layout.styled';
 

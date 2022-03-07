@@ -2,7 +2,7 @@ import qs from 'qs';
 import type { PageProps } from 'gatsby';
 import { LANG_EN, Languages } from './constant';
 
-import data from './data';
+import { data } from './data';
 
 export const getLangFromLocation = (location: PageProps['location']) => {
   const { search } = location;

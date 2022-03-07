@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SectionTitle } from '@components/SectionTitle';
-import HistoricalList from '@components/HistoricalList';
+import { HistoricalList } from '@components/HistoricalList';
 import { getLangData } from '@content/helpers';
 
 import BookSVG from '@icons/book.svg';
