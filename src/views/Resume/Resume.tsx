@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import html2canvas from 'html2canvas';
 
-import PaperAnimation from '@components/PaperAnimation';
+import { PaperAnimation } from '@components/PaperAnimation';
 import { Button } from '@components/Button';
 import { getLangData } from '@content/helpers';
 

@@ -10,7 +10,7 @@ import { Helmet, HelmetProps } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Languages, LANG_EN } from '../../content/constant';
 
-const SEO = ({
+export const SEO = ({
   title,
   description,
   lang = LANG_EN,
@@ -82,5 +82,3 @@ const SEO = ({
     />
   );
 };
-
-export default SEO;

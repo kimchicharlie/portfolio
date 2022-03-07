@@ -1,8 +1,7 @@
 import React from 'react';
 
-import SectionTitle from '@components/SectionTitle';
-import TextIcon from '@components/TextIcon';
-import PresentationCard from '@components/PresentationCard';
+import { SectionTitle } from '@components/SectionTitle';
+import { TextIcon } from '@components/TextIcon';
 import { getLangData } from '@content/helpers';
 
 import InfoSVG from '@icons/info.svg';
@@ -31,7 +30,7 @@ import {
   StyledHobbiesSectionContent,
   StyledHobbiesSectionIcon,
   StyledLeftColumn,
-  StyledLeftPresentationCard,
+  StyledLeftColumnPresentationCard,
   StyledPicture,
   StyledPictureSection,
   StyledSocialSection,
@@ -46,7 +45,7 @@ export const LeftColumn = ({ lang }: { lang: Languages }) => {
   const { presentation, about, social, hobbies } = getLangData(lang);
   return (
     <StyledLeftColumn>
-      <StyledLeftPresentationCard
+      <StyledLeftColumnPresentationCard
         name="CHARLIE HENIN"
         title={presentation.title}
       />

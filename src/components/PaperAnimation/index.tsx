@@ -13,7 +13,7 @@ const calc = (x: number, y: number) => [
 const trans = (x: number, y: number, s: number) =>
   `perspective(1200px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-const PaperAnimation = (props: any) => {
+export const PaperAnimation = (props: any) => {
   const [springProps, set] = useSpring<{
     xys: number[];
     config: { mass: number; tension: number; friction: number };
@@ -38,5 +38,3 @@ const PaperAnimation = (props: any) => {
     />
   );
 };
-
-export default PaperAnimation;

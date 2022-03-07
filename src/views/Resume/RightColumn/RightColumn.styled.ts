@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import PresentationCard from '../../../components/PresentationCard';
+import { PresentationCard } from '../../../components/PresentationCard';
 
 export const StyledRightColumnContainer = styled.div`
   height: 100%;

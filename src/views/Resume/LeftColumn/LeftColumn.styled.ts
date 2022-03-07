@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import PresentationCard from '../../../components/PresentationCard';
-import TextIcon from '../../../components/TextIcon';
+import { PresentationCard } from '../../../components/PresentationCard';
+import { TextIcon } from '../../../components/TextIcon';
 
 export const StyledLeftColumn = styled.div`
   height: 100%;
@@ -17,7 +17,7 @@ export const StyledLeftColumn = styled.div`
   }
 `;
 
-export const StyledLeftPresentationCard = styled(PresentationCard)`
+export const StyledLeftColumnPresentationCard = styled(PresentationCard)`
   display: none;
 
   @media screen and (max-width: 878px) {
@@ -27,14 +27,6 @@ export const StyledLeftPresentationCard = styled(PresentationCard)`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    > .presentation-card-name {
-      font-size: 32px;
-    }
-
-    > .presentation-card-title {
-      font-size: 24px;
-    }
   }
 `;
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SectionTitle from '@components/SectionTitle';
+import { SectionTitle } from '@components/SectionTitle';
 import HistoricalList from '@components/HistoricalList';
 import { getLangData } from '@content/helpers';
 
@@ -22,7 +22,6 @@ export const RightColumn = ({ lang }: { lang: Languages }) => {
       <StyledRightColumnPresentationCard
         name="CHARLIE HENIN"
         title={presentation.title}
-        className="right-presentation-card"
       />
       <StyledExperienceSection>
         <SectionTitle

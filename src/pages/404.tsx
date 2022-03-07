@@ -2,7 +2,7 @@ import React from 'react';
 import type { PageProps } from 'gatsby';
 
 import { Layout } from '@components/Layout';
-import SEO from '@components/Seo';
+import { SEO } from '@components/Seo';
 import { getLangFromLocation } from '@content/helpers';
 
 const NotFoundPage = ({ location }: PageProps) => {
