@@ -14,7 +14,9 @@ npm run develop
 ### Built using
 
 - [Gatsby](https://www.gatsbyjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [React.js](https://reactjs.org/)
+- [Styled components](https://styled-components.com/)
 - [React Spring](https://www.react-spring.io/)
 - [React Helmet](https://github.com/nfl/react-helmet)
 

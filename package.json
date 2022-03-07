@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "description": "A simple portfolio made with Gatsby",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "kimchicharlie",
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.6",
