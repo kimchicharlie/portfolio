@@ -20,7 +20,7 @@ export const Resume = ({ lang }: { lang: Languages }) => {
   const { downloadButton, animationButton } = getLangData(lang);
 
   const downloadResume = () => {
-    const screenshotTarget = document.querySelector('.resume-paper');
+    const screenshotTarget = document.querySelector('#resume-paper');
 
     if (screenshotTarget) {
       html2canvas(screenshotTarget as HTMLElement).then(canvas => {
@@ -45,19 +45,19 @@ export const Resume = ({ lang }: { lang: Languages }) => {
           }`}
         </Button>
       </StyledResumeActionsContainer>
-      <div>
+      <>
         {animated ? (
-          <PaperAnimation className="resume-paper">
+          <PaperAnimation id="resume-paper">
             <LeftColumn lang={lang} />
             <RightColumn lang={lang} />
           </PaperAnimation>
         ) : (
-          <StyledResumePaper>
+          <StyledResumePaper id="resume-paper">
             <LeftColumn lang={lang} />
             <RightColumn lang={lang} />
           </StyledResumePaper>
         )}
-      </div>
+      </>
     </StyledResumeContainer>
   );
 };
