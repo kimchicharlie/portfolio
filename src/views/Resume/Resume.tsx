@@ -29,7 +29,7 @@ export const Resume = ({ lang }: { lang: Languages }) => {
           .toDataURL('image/jpeg')
           .replace('image/jpeg', 'image/octet-stream');
         anchor.target = '_blank';
-        anchor.download = 'charlie-henin-resume';
+        anchor.download = 'charlie-henin-resume.jpg';
         anchor.click();
       });
     }
