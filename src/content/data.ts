@@ -43,7 +43,7 @@ export const data = {
     about: {
       title: 'ABOUT ME',
       content:
-        'Confirmed Full Stack Developer with 5+ years experience implementing web services in agile environments. I love frontend & backend development as much as DevOps.',
+        'Confirmed Full Stack Developer with 7+ years experience implementing web services in agile environments. I love frontend & backend development as much as DevOps.',
     },
     social: {
       title: 'I AM SOCIAL',
@@ -64,9 +64,32 @@ export const data = {
       historical: {
         items: [
           {
-            primary: 'Full Stack Engineer',
+            primary: 'Full Stack Developer',
+            secondary: '@ BOTPRESS (On site / Montreal, Canada)',
+            optional: 'Jun 2023 - Present',
+            description: [
+              '- Maintain and improve Botpress Studio, the interface used by users to build chatbots.',
+              '- Answer users questions on the Botpress Discord.',
+            ],
+            services: [
+              {
+                name: 'Botpress',
+                url: 'https://botpress.com/',
+              },
+            ],
+          },
+          {
+            primary: 'Full Stack Developer',
+            secondary: '@ MAPLR (On site / Montreal, Canada)',
+            optional: 'Jan 2023 - Jun 2023',
+            description: [
+              '- Work as a React/Node developer consultant at Intact Lab.',
+            ],
+          },
+          {
+            primary: 'Full Stack Developer',
             secondary: '@ BELLMAN (Remote / Paris, France)',
-            optional: 'Oct 2020 - Present',
+            optional: 'Oct 2020 - Jan 2023',
             description: [
               '- Maintain and improve Lobby, the software used by landlords and property managers.',
               '- Build, document and deploy an OCR service to extract essential data from financial documents.',
@@ -80,16 +103,13 @@ export const data = {
             ],
           },
           {
-            primary: 'Full Stack Engineer',
+            primary: 'Full Stack Developer',
             secondary: '@ SIGFOX (Labège, France)',
             optional: 'Oct 2018 - Oct 2020',
             description: [
               '- Maintain and improve the Sigfox ecosystem platforms (see services list below).',
-              '- Write a mobile first Bingo application to demonstrate a low cost Sigfox device at the Sigfox Connect event in Singapore.',
               '- Migrate applications from OVH custom environment to GCP based Kubernetes infrastructure.',
-              '- Write and document npm packages from modules reused through our codebases.',
               '- Develop and document a library of React components implementing the Sigfox’s design system constraints.',
-              '- Mentor beginner developers through exercices, pair programming & tech explanations.',
             ],
             services: [
               {
@@ -165,8 +185,6 @@ export const data = {
             optional: '2012 - 2017',
             description: [
               '- Learning programming concepts/paradigms (C, C++, Ocaml, Python, ASM, Java) through the development of multiple small projects.',
-              '- Courses on various topics including mathematics, network, security, project management, english, uml, entrepreneurship.',
-              '- Vice president of the "BDE" (Students union): animating the campus life by organizing small trips, videogames tournaments, sports games, ...',
               '- Winning the "Toulouse Défi Numérique" Dataviz Award for the project "Où vont nos impots ?".',
               '- Development of a domotic solution to regulate temperature and brightness through switchable glass for the Epitech Innovative Project.',
             ],
@@ -176,8 +194,7 @@ export const data = {
             secondary: '@ CHUNG-ANG UNIVERSITY (South Korea)',
             optional: '2015 - 2016',
             description: [
-              '- Operating system, software engineering, korean culture & korean language courses.',
-              '- Social, cultural experience, great improvement of english skills.',
+              '- Operating system, software Developering, korean culture & korean language courses.',
             ],
           },
         ],
@@ -211,7 +228,7 @@ export const data = {
     about: {
       title: 'A PROPOS',
       content:
-        "Développeur Full Stack avec 5 ans d'expérience dans le développement de services web dans des environnements agiles. J'aime le frontend/backend et le DevOps.",
+        "Développeur Full Stack avec 7 ans d'expérience dans le développement de services web dans des environnements agiles. J'aime le frontend/backend et le DevOps.",
     },
     social: {
       title: 'ME CONTACTER',
@@ -232,7 +249,30 @@ export const data = {
       historical: {
         items: [
           {
-            primary: 'Full Stack Engineer',
+            primary: 'Full Stack Developer',
+            secondary: '@ BOTPRESS (On site / Montreal, Canada)',
+            optional: 'Jun 2023 - Present',
+            description: [
+              "- Maintenir et améliorer Studio, l'interface Botpress de création de bots.",
+              '- Répondre aux questions des utilisateurs sur le Discord Botpress.',
+            ],
+            services: [
+              {
+                name: 'Botpress',
+                url: 'https://botpress.com/',
+              },
+            ],
+          },
+          {
+            primary: 'Full Stack Developer',
+            secondary: '@ MAPLR (On site / Montreal, Canada)',
+            optional: 'Jan 2023 - Jun 2023',
+            description: [
+              '- Travailler en tant que consultant React/Node à Intact Lab.',
+            ],
+          },
+          {
+            primary: 'Full Stack Developer',
             secondary: '@ BELLMAN (Télétravail / Paris, France)',
             optional: 'Oct 2020 - Présent',
             description: [
@@ -253,11 +293,8 @@ export const data = {
             optional: 'Oct 2018 - Oct 2020',
             description: [
               "- Maintenir et améliorer les plateformes de l'écosystème Sigfox.",
-              '- Créer une application de Bingo mobile first pour présenter un device Sigfox low cost au Sigfox Connect à Singapour.',
               '- Migrer les services depuis un environnement OVH custom vers une infrastructure Kubernetes hébergée sur GCP.',
-              '- Porter du code réutilisé dans les différents projets en modules npm documentés.',
               '- Développer et documenter une librairie de composants React implémentant les contraintes du design system de Sigfox.',
-              '- Mentorer des développeurs débutants: exercices, pair coding, tutorat.',
             ],
             services: [
               {
@@ -333,8 +370,6 @@ export const data = {
             optional: '2012 - 2017',
             description: [
               '- Apprentissage des différents concepts et paradigmes de programmation (C, C++, Ocaml, Python, ASM, Java). Pédagogie par projets.',
-              '- Divers cours tels que: mathématiques, réseaux, sécurité, gestion de project, anglais, uml, entrepreneuriat.',
-              "- Vice president du Bureau des étudiants: animation de la vie du campus via l'organisation de weekends, tournoi vidéoludiques, matchs sportifs, ...",
               '- Lauréat du prix Datavis du "Toulouse Défi Numérique" pour le projet "Où vont nos impots ?".',
               "- Développement d'une solution domotique pour réguler température et luminosité par opacité controlée dans le cadre du Epitech Innovative Project.",
             ],
@@ -345,7 +380,6 @@ export const data = {
             optional: '2015 - 2016',
             description: [
               "- Systèmes d'exploitation, architecture logiciel, culture et langue coréenne.",
-              "- Expérience sociale et culturelle, amélioration de l'anglais.",
             ],
           },
         ],
