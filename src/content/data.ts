@@ -66,7 +66,7 @@ export const data = {
           {
             primary: 'Full Stack Developer',
             secondary: '@ BOTPRESS (On site / Montreal, Canada)',
-            optional: 'Jun 2023 - Present',
+            optional: 'Jun 2023 - Jan 2024',
             description: [
               '- Maintain and improve Botpress Studio, the interface used by users to build chatbots.',
               '- Answer users questions on the Botpress Discord.',
@@ -251,7 +251,7 @@ export const data = {
           {
             primary: 'Full Stack Developer',
             secondary: '@ BOTPRESS (On site / Montreal, Canada)',
-            optional: 'Jun 2023 - Present',
+            optional: 'Jun 2023 - Jan 2024',
             description: [
               "- Maintenir et améliorer Studio, l'interface Botpress de création de bots.",
               '- Répondre aux questions des utilisateurs sur le Discord Botpress.',
@@ -274,7 +274,7 @@ export const data = {
           {
             primary: 'Full Stack Developer',
             secondary: '@ BELLMAN (Télétravail / Paris, France)',
-            optional: 'Oct 2020 - Présent',
+            optional: 'Oct 2020 - Jan 2023',
             description: [
               '- Maintenir et améliorer Lobby, le logiciel utilisé par les copropriétaires et gestionnaires de copro.',
               "- Développer, documenter et déployer un OCR afin d'extraire des données de documents financiers.",
